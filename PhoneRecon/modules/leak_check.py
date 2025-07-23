@@ -2,7 +2,7 @@ import requests
 
 
 def check_leaks(phone):
-    # Convert phone to email format if applicable — this is optional
+   
     print(f"[!] Checking leaks using HaveIBeenPwned (email recommended)...")
     email_or_phone = input("    [?] Enter email linked to phone (or use phone): ").strip()
 
